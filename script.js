@@ -13,8 +13,9 @@ function isPalindroma(parolaUser) {
     console.log(reverseWord);
 
     // unisco le lettere della parola con join
-    let joinWord = reverseWord.reverse();
+    let joinWord = reverseWord.join(' ');
     console.log(joinWord);
 
     // verifico se la parola è palindroma
+
 }
